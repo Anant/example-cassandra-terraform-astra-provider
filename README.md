@@ -1,0 +1,1 @@
+# example-cassandra-terraform-astra-provider

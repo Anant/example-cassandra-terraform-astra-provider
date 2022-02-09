@@ -17,6 +17,10 @@ brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 ```
 
+```bash
+sudo apt-get install graphviz
+```
+
 ## 3. Create `astra.tf`
 
 ```bash

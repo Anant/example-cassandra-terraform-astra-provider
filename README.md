@@ -72,7 +72,7 @@ resource "astra_keyspace" "databaselist" {
 
 ## 5. Create a dependency graph
 ```bash
-sudo apt-get install graphviz
+terraform graph | dot -Tsvg > graph.svg
 ```
 
 ## 6. Destroy newly created Astra DB instance

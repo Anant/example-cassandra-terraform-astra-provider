@@ -1,0 +1,3 @@
+tasks:
+  - name: Terraform
+    command: bash setup.sh

@@ -22,7 +22,10 @@ terraform {
     }
 }
 
-variable "token" {}
+variable "token" {
+    type = string
+    default = "<your-token-here>"
+}
 
 provider "astra" {
   // This can also be set via ASTRA_API_TOKEN environment variable.
